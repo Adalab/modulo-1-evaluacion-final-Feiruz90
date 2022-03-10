@@ -1,0 +1,42 @@
+body {
+  margin: 0; }
+
+.header {
+  background-image: url("/assets/images/header.jpg"); }
+  @media (max-width: 768px) {
+    .header {
+      height: 330px;
+      background-size: cover;
+      background-position: center; } }
+  @media (min-width: 768px) {
+    .header {
+      height: 100vh;
+      background-size: cover; } }
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none; } }
+
+.links {
+  display: none; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 61px; }
+
+.lema {
+  padding-top: 41px;
+  margin-bottom: 41px;
+  text-align: center;
+  color: #0c474b;
+  font-size: 20pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+.section1 {
+  background-color: #f0ebe5; }
+
+.section2 {
+  background-color: #ff975a; }
+
+/*# sourceMappingURL=main.css.map */
