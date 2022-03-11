@@ -1,5 +1,5 @@
 // @import 'core/variables';
-// @import 'core/reset';
+@import "core/reset";
 // @import 'components/code';
 // @import 'components/links';
 // @import 'layout/page';
@@ -9,6 +9,7 @@
 
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
@@ -39,11 +40,16 @@ body {
 
 .links {
   display: none;
+  //tablet
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 61px;
 }
 
@@ -53,12 +59,44 @@ body {
   text-align: center;
   color: #0c474b;
   font-size: 20pt;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .section1 {
-  background-color: #f0ebe5;
+  background-color: #eee8e1;
+  padding-bottom: 61px;
+}
+
+.section1green {
+  color: #0c474b;
+}
+.li {
+  list-style: none;
+  color: #023538;
+  font-size: 15pt;
 }
 .section2 {
   background-color: #ff975a;
+  color: #eee8e1;
+  height: 352px;
+}
+
+.section3 {
+  background-color: #eee8e1;
+  color: #0c474b;
+}
+
+.footer {
+  background-color: #03565a;
+  color: #eee8e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-ul {
+  list-style: none;
+}
+.links-footer {
+  text-decoration: none;
+  color: #eee8e1;
 }
