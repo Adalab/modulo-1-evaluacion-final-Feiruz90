@@ -35,33 +35,83 @@ body {
   align-items: center;
   padding-top: 61px; }
 
-.lema {
-  padding-top: 41px;
-  margin-bottom: 41px;
-  text-align: center;
-  color: #0c474b;
-  font-size: 20pt; }
+.h1 {
+  color: #023538;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center; }
+
+.h3 {
+  color: #eee8e1;
+  width: 176px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 24px 119px 0 62px;
+  padding: 12px 24px;
+  background-color: #0c474b; }
 
 .section1 {
   background-color: #eee8e1;
-  padding-bottom: 61px; }
-
-.section1green {
-  color: #0c474b; }
-
-.li {
-  list-style: none;
-  color: #023538;
-  font-size: 15pt; }
+  display: grid;
+  color: #023538; }
+  .section1 .lema {
+    padding-top: 41px;
+    margin-bottom: 41px;
+    text-align: center;
+    color: #0c474b;
+    font-size: 20pt; }
+  .section1 .article {
+    padding-top: 41px;
+    margin-bottom: 41px;
+    text-align: center;
+    color: #0c474b;
+    font-size: 10pt; }
 
 .section2 {
   background-color: #ff975a;
   color: #eee8e1;
   height: 352px; }
 
+.car-text {
+  padding-top: 41px;
+  margin-bottom: 41px;
+  text-align: center;
+  font-size: 10pt; }
+
 .section3 {
   background-color: #eee8e1;
   color: #0c474b; }
+
+.disfruta {
+  padding-top: 41px;
+  margin-bottom: 41px;
+  text-align: center;
+  font-size: 10pt; }
+
+.compra-ahora {
+  color: #eee8e1;
+  width: 128px;
+  height: 24px;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  background-color: #0c474b; }
+
+.creando-espacio {
+  height: 304px; }
 
 .footer {
   background-color: #03565a;
