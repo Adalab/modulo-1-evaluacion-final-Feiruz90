@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  background-image: url("/assets/images/header.jpg");
+  background-image: url("./assets/images/header.jpg");
 
   // mobile
   @media (max-width: 768px) {
